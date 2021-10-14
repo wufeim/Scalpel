@@ -1,0 +1,7 @@
+__title__ = 'Scalpel'
+__description__ = 'Scalpel - Experimental Results Dashboard'
+__version__ = '0.1.0'
+__author__ = 'Wufei Ma'
+__author_email__ = 'wufeim@gmail.com'
+__license__ = 'Apache 2.0'
+__url__ = 'https://github.com/wufeim/Scalpel'
