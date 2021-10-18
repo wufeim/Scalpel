@@ -3,7 +3,7 @@ from scalpel import ScalpelDashboard, ScalpelPage, ScalpelTable
 
 def test():
     table = ScalpelTable(columns=['query', 'return', 'dist', 'hm', 'pred', 'prior', 'complete',
-                                  'entropy score', 'dist score', 'final_score'])
+                                  'entropy score', 'dist score', 'final score'])
     table.append_row([
         '/Users/wufeim/Downloads/suggestive_completion/single_0000001/output/incomplete_0.png',
         '/Users/wufeim/Downloads/suggestive_completion/single_0000001/output/return_0.png',
@@ -43,6 +43,16 @@ def test():
         '/Users/wufeim/Downloads/suggestive_completion/single_0000001/output/prior_3.png',
         '/Users/wufeim/Downloads/suggestive_completion/single_0000001/output/complete_3.png',
         0.986, 0.652, 0.643
+    ])
+    table.append_row([
+        '/Users/wufeim/Downloads/suggestive_completion/single_0000001/output/incomplete_4.png',
+        '/Users/wufeim/Downloads/suggestive_completion/single_0000001/output/return_4.png',
+        '/Users/wufeim/Downloads/suggestive_completion/single_0000001/output/dist_4.png',
+        '/Users/wufeim/Downloads/suggestive_completion/single_0000001/output/hm_4.png',
+        '/Users/wufeim/Downloads/suggestive_completion/single_0000001/output/pred_4.png',
+        '/Users/wufeim/Downloads/suggestive_completion/single_0000001/output/prior_4.png',
+        '/Users/wufeim/Downloads/suggestive_completion/single_0000001/output/complete_4.png',
+        0.877, 0.652, 0.572
     ])
     table.append_row([
         '/Users/wufeim/Downloads/suggestive_completion/single_0000001/output/incomplete_4.png',
