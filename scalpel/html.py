@@ -14,7 +14,7 @@ body { margin-bottom: 60px; }
   line-height: 60px; /* Vertically center the text there */
   background-color: #f5f5f5;
 }
-body > .container { padding: 40px 15px 20px; }
+body > .container { padding: 60px 15px 20px; }
 .footer > .container { padding-right: 15px; padding-left: 15px; }
 </style>
 """
